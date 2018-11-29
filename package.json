@@ -1,0 +1,36 @@
+{
+    "name": "@activfinancial/cg-api-starter",
+    "description": "Simple cg-api Starter Application.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/activfinancial/cg-api-starter"
+    },
+    "version": "0.0.1",
+    "private": false,
+    "license": "CC-BY-ND-4.0",
+    "author": {
+        "name": "ACTIV Financial Systems, Inc.",
+        "email": "support@activfinancial.com",
+        "url": "http://www.activfinancial.com"
+    },
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js --config-production",
+        "develop": "rollup -c rollup.config.js",
+        "test": "echo \"No test specified\"",
+        "watch": "rollup -c rollup.config.js --watch",
+        "serve": "rollup -c rollup.config.js --watch --config-serve"
+    },
+    "dependencies": {
+        "@activfinancial/cg-api": "^0.4.2"
+    },
+    "devDependencies": {
+        "rollup": "^0.67.1",
+        "rollup-plugin-livereload": "^0.6.0",
+        "rollup-plugin-node-resolve": "^3.4.0",
+        "rollup-plugin-serve": "^0.6.0",
+        "rollup-plugin-terser": "^3.0.0",
+        "rollup-plugin-typescript2": "^0.18.0",
+        "typescript": "^3.1.2"
+    }
+}
