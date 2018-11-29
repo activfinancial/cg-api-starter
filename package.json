@@ -1,0 +1,35 @@
+{
+    "name": "@activfinancial/cg-api-starter",
+    "description": "Simple cg-api Starter Application.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/activfinancial/cg-api-starter"
+    },
+    "version": "0.0.1",
+    "private": false,
+    "license": "CC-BY-ND-4.0",
+    "author": {
+        "name": "ACTIV Financial Systems, Inc.",
+        "email": "support@activfinancial.com",
+        "url": "http://www.activfinancial.com"
+    },
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "develop": "webpack --mode development",
+        "test": "echo \"No test specified\"",
+        "watch": "webpack --mode development --watch -d",
+        "serve": "webpack-dev-server --mode development -d"
+    },
+    "dependencies": {
+        "@activfinancial/cg-api": "^0.4.2"
+    },
+    "devDependencies": {
+        "source-map-loader": "^0.2.4",
+        "ts-loader": "^5.2.1",
+        "typescript": "^3.1.2",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9"
+    }
+}
