@@ -22,14 +22,14 @@
         "serve": "webpack-dev-server --mode development -d"
     },
     "dependencies": {
-        "@activfinancial/cg-api": "^0.4.2"
+        "@activfinancial/cg-api": "^0.6.0"
     },
     "devDependencies": {
         "source-map-loader": "^0.2.4",
-        "ts-loader": "^5.2.1",
-        "typescript": "^3.1.2",
-        "webpack": "^4.20.2",
-        "webpack-cli": "^3.1.2",
-        "webpack-dev-server": "^3.1.9"
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.4.3",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.3.1"
     }
 }
