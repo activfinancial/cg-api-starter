@@ -18,7 +18,7 @@ const config = {
     external: [ "@activfinancial/cg-api" ],
     plugins: [
         nodeResolve({
-            browser: true,
+            mainFields: ["browser"],
             modulesOnly: true
         }),
         typescript()
