@@ -1,6 +1,6 @@
 ## cg-api-starter
 
-This repo demonstrates how to use the cg-api as a dependency, rather than how the samples in the cg-api monorepo itself work (using lerna to manage the cg-api dependency).
+This repo demonstrates how to use the cg-api as a dependency, rather than how the samples in the cg-api-examples monorepo itself work (using lerna to manage the cg-api dependency).
 
 ## Branches
 
