@@ -17,7 +17,7 @@ const config = {
     },
     plugins: [
         nodeResolve({
-            module: true,
+            mainFields: ["module"],
             preferBuiltins: true
         }),
         commonjs(),
