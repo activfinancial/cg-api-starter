@@ -18,7 +18,8 @@ const config = {
     plugins: [
         nodeResolve({
             mainFields: ["module"],
-            preferBuiltins: true
+            // Seems to break with "Could not load string_decoder".
+            // preferBuiltins: true
         }),
         commonjs(),
         builtins(),
