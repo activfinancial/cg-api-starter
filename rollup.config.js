@@ -12,7 +12,7 @@ const config = {
         name: "activ_cg_api_starter",
         sourcemap: true,
         globals: {
-            "@activfinancial/cg-api": "activ"
+            "@activfinancial/cg-api": "activCgApi"
         }
     },
     external: [ "@activfinancial/cg-api" ],
