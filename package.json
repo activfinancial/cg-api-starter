@@ -22,15 +22,15 @@
         "serve": "rollup -c rollup.config.js --watch --config-serve"
     },
     "dependencies": {
-        "@activfinancial/cg-api": "^0.15.1"
+        "@activfinancial/cg-api": "^0.16.0"
     },
     "devDependencies": {
-        "rollup": "^1.27.14",
+        "rollup": "^1.30.1",
         "rollup-plugin-livereload": "^1.0.4",
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-serve": "^1.0.1",
-        "rollup-plugin-terser": "^5.1.3",
+        "rollup-plugin-terser": "^5.2.0",
         "rollup-plugin-typescript2": "^0.25.3",
-        "typescript": "^3.7.4"
+        "typescript": "^3.7.5"
     }
 }
